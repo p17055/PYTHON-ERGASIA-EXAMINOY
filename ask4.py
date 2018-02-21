@@ -13,7 +13,7 @@ elif number > 99999 :
 		third =  ((number%100000)%10000)/ 1000
 		fourth = (((number%100000)%10000)%1000)/ 100
 		fifth = ((((number%100000)%10000)%1000)%100)/ 10
-		sixth = (((((number$100000)%10000)%1000)%100)%10)
+		sixth = (((((number%100000)%10000)%1000)%100)%10)
 		roman = ('M' * 100 * first) + ('M' * 10 * second) + ('M' * third)
 		if fourth == 9 :
 					roman = roman + 'CM'
